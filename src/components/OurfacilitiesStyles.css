@@ -1,0 +1,51 @@
+.Ourfacilities{
+    margin: 4rem 6rem;
+}
+.Ourfacilities h3{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.facilities1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.facilities1 .icons i{
+    font-size: 2.5rem;
+    color:  #4D34DD;
+}
+.facilities1 .icons h4{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+
+@media screen and (max-width:827px) {
+    .Ourfacilities {
+        margin: 2rem 3rem;
+    }
+ }
+
+@media screen and (max-width:635px) {
+    .facilities1 .icons h4{
+        font-size: 0.9rem;
+    }
+    
+}
+@media screen and (max-width:540px) {
+    .Ourfacilities {
+        margin: 1.8rem;
+    }
+    .facilities1{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    .Ourfacilities p{
+        font-size: 0.85rem;
+        width: 100%;
+    }
+
+}

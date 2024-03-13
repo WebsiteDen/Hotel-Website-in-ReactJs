@@ -1,0 +1,135 @@
+.ourrooms{
+    padding: 6rem 4rem;
+    background: #F7F6FE;
+}
+.ourrooms h4{
+    font-size: 1rem;
+    color: #4D34DD;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+.ourrooms h2{
+    font-size: 3rem;
+    font-weight: 500;
+    padding-bottom: 1.2rem;
+}
+.room-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+.r-card{
+    width: 49%;
+    text-align: start;
+    cursor: pointer;
+    padding: 1rem .8rem;
+}
+.r-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+.r-card h4{
+    color: #222;
+    font-size: 1.2rem;
+}
+.r-card p{
+    padding-bottom: .6rem;
+}
+.r-icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 70px;
+    margin-bottom: 1rem;
+}
+.r-icons .icon{
+    margin-left: 1rem;
+}
+.r-card a{
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    color: #4D34DD;
+    border: 1px solid #4D34DD;
+    margin-top: 2.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.1s ease-in-out;
+}
+.r-card a:hover{
+    color: #ffffff;
+    background-color: #4D34DD;
+}
+
+@media screen and (max-width: 1350px) {
+    .r-icons{
+        gap: 10px;
+    }
+    .r-icons .icon{
+        margin-left: .2rem;
+    }
+    
+}
+
+@media screen and (max-width:1056px ) {
+    .r-icons{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-gap: 15px;
+       margin-bottom: .2rem;
+    }
+    .r-icons .icon{
+        margin-left: .6rem;
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 856px) {
+    .ourrooms{
+        padding: 2rem 3rem;
+       
+    }
+    .ourrooms h2{
+        font-size: 1.9rem;
+    }
+    .room-card{
+        flex-direction: column;
+    }
+    .r-card{
+        width: 100%;
+    }
+    .r-icons{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+    .r-icons{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+        margin-bottom: .1rem;
+    }
+}
+@media screen and (max-width: 512px) {
+    .ourrooms{
+        padding: 1.8rem;
+       
+    }
+}
+@media screen and (max-width: 455px){
+    .r-icons{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: left;
+        grid-gap: 10px;
+        margin-bottom: .1rem;
+    }
+    .r-card a{
+        text-align: center;
+    }
+}

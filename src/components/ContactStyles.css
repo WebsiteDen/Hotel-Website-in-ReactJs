@@ -1,0 +1,108 @@
+.ContactUs{
+    padding: 4rem 6rem;
+    background: #F7F6FE;
+}
+.ContactUsCol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8rem;
+}
+.getintouch{
+    width: 47%;
+    text-align: left;
+    padding-bottom: 9rem;
+}
+.getintouch h3{
+    font-size: 2.3rem;
+    font-weight: 500;
+    padding-bottom: 1.2rem;
+}
+.getintouch p{
+    padding-bottom: 1.2rem;
+}
+.ReachUs{
+    display: flex;
+    flex-direction: column;
+}
+.ReachUs span{
+    padding-bottom: 1.3rem;
+}
+.ReachUs span i{
+    color: #4D34DD;
+    margin-right: 1rem;
+}
+.ReachUs .text{
+    font-weight: 600;
+}
+.ContactMap{
+  width: 47%;
+}
+.ContactMessage{
+    display: block;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+.ContactMessage h3{
+    font-size: 2.3rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+.ContactMessage .c-text{
+  padding-bottom: 1.2rem;
+}
+.Name .namecol{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.Name .text, .Email .text, .Subject .text, .Message .text{
+    font-weight: bold;
+}
+.ContactInputs p{
+    text-align: left;
+}
+.namecol{
+    display: block;
+    gap: 20px;
+}
+.namecol input{
+    padding: .3rem 2.5rem;
+    align-items: left;
+    outline: none;
+    width: 100%;
+}
+.Email, .Subject, .Message, .Subject{
+    padding-top: 1.2rem;
+}
+.Email input, .Subject input{
+    padding: .3rem 2.5rem;
+    width: 100%; 
+    outline: none;
+}
+.Message textarea{
+    width: 100%;
+    outline: none;
+}
+@media screen and (max-width: 800px) {
+     .ContactUs{
+        padding: 3rem;
+     }
+     .ContactUsCol{
+        flex-direction: column;
+     }
+     .getintouch,.ContactMap{
+        width: 100%;
+     }
+     .ContactMessage{
+        width: 100%;
+     }
+}
+@media screen and (max-width: 390px ) {
+    .ContactUs{
+        padding: 1.8rem;
+     }
+    .ContactMessage h3{
+        font-size: 1.5rem;
+    }
+}

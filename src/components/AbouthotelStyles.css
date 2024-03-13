@@ -1,0 +1,81 @@
+.abouthotel{
+    margin: 4rem 6rem;
+}
+.ourhotel{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.image img{
+    width: 650px;
+    object-fit: cover;
+    width: 80%;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+.abouttext{
+    text-align: left;
+    width: 50%;
+}
+.abouttext h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.abouthotel h5{
+    font-size: 1.09rem;
+    margin-bottom: 2rem;
+}
+.abouthotel p{
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+.abouthotel a{
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    color: #4D34DD;
+    border: 1px solid #4D34DD;
+    margin-top: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.abouthotel a:hover{
+    color: #ffffff;
+    background-color: #4D34DD;
+}
+@media screen and (max-width:1065px ) {
+    .image img{
+        width: 350px;
+    }
+    .abouttext h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .abouthotel h5 {
+        font-size: 0.89rem;
+        margin-bottom: 1rem;
+    }
+    
+}
+@media screen and (max-width:875px ){
+    .abouthotel{
+        margin: 2rem 3rem;
+    }
+    .ourhotel{
+        flex-direction: column;
+    }
+    .image img{
+        width: 100%;
+    }
+    .abouttext{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 512px) {
+    .abouthotel{
+        margin: 1.8rem;
+    }
+}

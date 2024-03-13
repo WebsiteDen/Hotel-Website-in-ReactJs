@@ -1,0 +1,43 @@
+.facilitiesStay{
+    padding: 4rem 6rem;
+    background: #F7F6FE;
+}
+.facilitiesStay h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+    padding-bottom: 1.2rem;
+}
+.Facilitiescol-1{
+    padding-bottom: 2.5rem;
+}
+.facilitiesCol2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 2rem;
+}
+.f-data span i{
+    color: #4D34DD;
+    font-size: 1.3rem;
+    padding-bottom: 1.4rem;
+}
+.f-data h3{
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width:800px) {
+    .facilitiesStay{
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .facilitiesCol2{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:512px) {
+    .facilitiesStay{
+        padding: 1.8rem;
+    }
+}

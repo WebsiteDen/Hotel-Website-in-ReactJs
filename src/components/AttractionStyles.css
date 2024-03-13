@@ -1,0 +1,117 @@
+.attraction{
+    padding: 4rem 6rem;
+    background: #F7F6FE;
+}
+.attraction h5{
+    color:  #4D34DD;
+    font-size: 1rem;
+    padding-bottom: .8rem;
+}
+.attraction h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+    padding-bottom: .8rem;
+}
+.attraction .texts p{
+    text-align: center;
+    padding-bottom: 4rem;
+}
+.attraction-col{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+#reverse{
+    flex-direction:  row-reverse ;
+}
+.a-image{
+    width: 48%;
+}
+.a-image img{
+    width: 100%;
+    border-radius: 7px;
+    height: 100%;
+}
+.a-text{
+    width: 48%;
+    text-align: start;
+    cursor: pointer;
+}
+.a-text h4{
+    color: #4D34DD;
+    padding-bottom: 1.1rem;
+}
+.a-text h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+.a-text p{
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+}
+.a-text a{
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    color: #4D34DD;
+    border: 1px solid #4D34DD;
+    border-radius: 5px;
+    margin-top: 2.2rem;
+    text-decoration: none;
+    transition: 0.1s ease-in-out;
+}
+.a-text a:hover{
+    color: #ffffff;
+    background-color: #4D34DD;
+}
+@media screen and (max-width: 1120px) {
+    .a-text h4, .a-text h3, .a-text p{
+        padding-bottom: .05rem ;
+    }
+       .a-image{
+        width: 60%;
+    }
+    .a-text{
+        width: 35%;
+       
+    }
+}
+@media screen and (max-width: 1050px){
+    .a-text h4, .a-text h3, .a-text p{
+        padding-bottom: .02rem ;
+    }
+    .a-text p{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 975px){
+    .attraction-col{
+        flex-direction: column;
+    }
+    .a-image{
+        width: 100%;
+    }
+    .a-text{
+        width: 100%;
+    }
+    .a-text h4, .a-text h3, .a-text p{
+        padding-bottom: .02rem ;
+    }
+    .a-text h3{
+        font-size: 1.2rem;
+    }
+    .a-text a{
+        padding: 0.4rem .8rem 0.4rem .8rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    .attraction{
+        padding: 2rem 3rem;  
+    }
+}
+@media screen and (max-width: 512px) {
+    .attraction{
+        padding: 1.8rem;  
+    }
+}

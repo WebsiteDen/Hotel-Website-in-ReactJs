@@ -1,0 +1,86 @@
+.Special{
+    padding: 4rem 6rem;
+    background: #F7F6FE;
+}
+.Special-Col1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.Special-Col1 h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.Special-Col1 a{
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    color: #4D34DD;
+    border: 1px solid #4D34DD;
+    margin-top: 1.2rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.1s ease-in-out;
+}
+.Special-Col1 a:hover{
+    color: #ffffff;
+    background-color: #4D34DD;
+}
+.Special-Col2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s-card{
+    width: 49%;
+    text-align: start;
+    cursor: pointer;
+    padding: 1rem .8rem;
+}
+.s-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+.Special-Col2 h4{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin:1rem 0 1rem 0;
+}
+.Special-Col2 p{
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+.Special-Col2 a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #4D34DD;
+}
+@media screen and (max-width: 850px) {
+    .Special{
+        padding: 2rem 3rem;
+    }
+    .Special-Col1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .Special-Col1 a{
+        width: 100%
+    }
+     .Special-Col2{
+        flex-direction: column;
+        margin: 0;
+     }
+     .s-card{
+        width: 100%;
+       padding: 0;
+    }    
+}
+@media screen and (max-width: 512px){
+    .Special{
+        padding: 1.8rem;
+    }
+
+}

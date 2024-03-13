@@ -1,0 +1,56 @@
+.Map{
+    margin: 4rem 6rem;
+}
+.reach{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+.reach h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: left;
+}
+.mapbutton{
+    margin-top: 2rem;
+}
+.mapbutton a{
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    color: #4D34DD;
+    border: 1px solid #4D34DD;
+    margin-top: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.mapbutton a:hover{
+    color: #ffffff;
+    background-color: #4D34DD;
+}
+.mapbutton a i{
+    margin-right: 0.5rem;
+}
+@media screen and (max-width:870px) {
+    .Map{
+        margin: 2rem 3rem;
+    }
+    .reach{
+        flex-direction: column;
+        align-items: center;
+    }
+    .reach h3{
+        font-size: 1.8rem;
+        text-align: center;
+    }    
+}
+@media screen and (max-width: 512px) {
+    .Map{
+        margin: 1.8rem;
+    }
+}
+@media screen and (max-width:384px){
+    .mapbutton a {
+        padding: 0.3rem 1rem 0.3rem 1rem;
+        width: 100%;
+    }  
+}

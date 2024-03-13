@@ -1,0 +1,46 @@
+.reservation{
+    background-image: url("../assets/12.jpg");
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 55% right 0;
+    position: relative;
+   
+}
+.reservationText h4{
+    padding: 8rem 0 2rem 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+}
+.reservationText h2{
+    font-size: 2.2rem;
+    color: #fff;
+    padding-bottom: 2rem;
+    font-weight: 600;
+}
+.reservationText h5{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 0.8rem;
+}
+.reservationText h1{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.reservationText h1 span i{
+    margin-right: 1.2rem;
+}
+@media screen and (max-width: 850px) {
+    .reservationText h4,  .reservationText h5{
+        font-size: 1rem;
+        
+    }
+    .reservationText h2{
+        font-size: 1.8rem;
+    }
+    .reservationText h1{
+        font-size: 2rem;
+    }
+}
