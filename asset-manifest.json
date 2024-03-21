@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hotel-Website-in-ReactJs/static/css/main.f2681e58.css",
-    "main.js": "/Hotel-Website-in-ReactJs/static/js/main.356268cf.js",
+    "main.js": "/Hotel-Website-in-ReactJs/static/js/main.c15dcdd9.js",
     "static/media/hero.png": "/Hotel-Website-in-ReactJs/static/media/hero.7b2e968714dd022b8124.png",
     "static/media/12.jpg": "/Hotel-Website-in-ReactJs/static/media/12.257c5311e1cae5638aad.jpg",
     "static/media/room.png": "/Hotel-Website-in-ReactJs/static/media/room.fb0160b9939af514234f.png",
@@ -35,10 +35,10 @@
     "static/media/budget-hotel-gallery-img-2-min.jpg": "/Hotel-Website-in-ReactJs/static/media/budget-hotel-gallery-img-2-min.036202b00208ce812710.jpg",
     "index.html": "/Hotel-Website-in-ReactJs/index.html",
     "main.f2681e58.css.map": "/Hotel-Website-in-ReactJs/static/css/main.f2681e58.css.map",
-    "main.356268cf.js.map": "/Hotel-Website-in-ReactJs/static/js/main.356268cf.js.map"
+    "main.c15dcdd9.js.map": "/Hotel-Website-in-ReactJs/static/js/main.c15dcdd9.js.map"
   },
   "entrypoints": [
     "static/css/main.f2681e58.css",
-    "static/js/main.356268cf.js"
+    "static/js/main.c15dcdd9.js"
   ]
 }
