@@ -14,7 +14,7 @@ export default function App() {
     <div className="App">
         
         <Routes basenam="/Hotel-Website-in-ReactJs">
-          <Route path="/Hotel-Website-in-ReactJs" element={<Home/>}/>
+          <Route path="/" element={<Home/>}/>
           <Route path="/rooms" element={<Rooms/>}/>
           <Route path="/explore" element={<Explore/>}/>
           <Route  path="/facilities" element={<Facilities/>} />
