@@ -1,7 +1,7 @@
 export const Menuitems = [
     {
         title: "Home",
-        url  : "/Hotel-Website-in-ReactJs",
+        url  : "/",
         cName: "nav-links",
     },
     {
