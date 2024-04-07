@@ -11,7 +11,6 @@ import Contact from "./routes/Contact";
 export default function App() {
   return (
     <div className="App">
-        
         <Routes basename="/Hotel-Website-in-ReactJs">
           <Route path="/" element={<Home/>}/>
           <Route path="/rooms" element={<Rooms/>}/>
