@@ -24,7 +24,7 @@ function Home (){
        title1="San fransisco"
        text = "Gravida maecenas mi iaculis non, posuere mattis urna, ac risus sit porta nunc."
        buttonText="Check Rooms"
-       url = "/"
+       url = "/Hotel-Website-in-ReactJs"
        btnClass="show"
        />
        <AboutHotel/>
